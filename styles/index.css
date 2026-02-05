@@ -1,0 +1,125 @@
+body {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: auto;
+}
+
+.header {
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+  background-image: url("/images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+}
+
+/* NAV: PUNTOS 1,2 Y 3 DEL BRIEF*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.nav__logo {
+  padding-left: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-right: 26px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* header__title */
+
+.header__title {
+  margin: 0;
+  padding-top: 183px;
+  padding-left: 80px;
+  max-width: 709px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.header__accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #ff976b;
+}
+
+/* ------------- */
+
+.header__description {
+  margin: 0;
+  padding-top: 28px;
+  padding-left: 80px;
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  right: 5px;
+  top: 124px;
+}
+
+/* HORARIO, ETC... */
+
+.header__info {
+  width: 100%;
+  position: absolute;
+  bottom: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.header__text {
+  margin: 0;
+}
+
+.header__hours {
+  padding-left: 80px;
+}
+
+.header__address {
+  margin: 0;
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+}
