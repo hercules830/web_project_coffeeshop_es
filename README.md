@@ -13,7 +13,7 @@ Pie de Página (Footer): Espacio informativo con enlaces a redes sociales e icon
 
 3. Tecnologías y Técnicas Utilizadas
 Para el desarrollo de este sitio se emplearon las siguientes herramientas y métodos:
-HTML5 Semántico: Uso de etiquetas descriptivas como header>, main>, section>, fieldset>, nav> y footer> para mejorar la accesibilidad y el SEO.
+HTML5 Semántico: Uso de etiquetas descriptivas como header, main, section, fieldset, nav y footer para mejorar la accesibilidad y el SEO.
 CSS3 Moderno:
 Metodología BEM: Organización de clases para un código escalable y fácil de leer.
 Flexbox: Implementado para la alineación de menús, formularios y elementos del footer.
