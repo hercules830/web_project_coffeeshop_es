@@ -63,8 +63,122 @@
       </div>
     </header>
 
-    <main class="content"></main>
+    <!-- MAIN CONTENT -->
 
-    <footer class="footer"></footer>
+    <main class="content">
+      <section class="reservation">
+        <div class="reservation__container">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+
+          <form action="" method="post" class="reservation__form">
+            <fieldset class="reservation__fieldset">
+              <label for="nombre" class="reservation__label">Nombre *</label>
+              <input
+                id="nombre"
+                placeholder="Nombre"
+                type="text"
+                class="reservation__input reservation__input--bottom32px"
+                required
+              />
+
+              <label for="comensales" class="reservation__label"
+                >Número de comensales *</label
+              >
+              <input
+                type="number"
+                placeholder="1-8"
+                id="comensales"
+                class="reservation__input"
+                min="1"
+                max="8"
+                required
+              />
+
+              <label for="fecha" class="reservation__label"
+                >Fecha y hora *</label
+              >
+              <input
+                type="date"
+                id="fecha"
+                class="reservation__input"
+                required
+              />
+
+              <label for="email" class="reservation__label"
+                >Tu correo electrónico *</label
+              >
+              <input
+                type="email"
+                placeholder="email@email.com"
+                id="email"
+                class="reservation__input"
+                required
+              />
+
+              <input
+                type="submit"
+                class="reservation__input reservation__input--table"
+                value="Reservar una mesa"
+              />
+
+              <div class="reservation__div-center">
+                <label for="checkbox" class="reservation__label"
+                  ><input
+                    type="checkbox"
+                    id="checkbox"
+                    class="reservation__checkbox reservation__checkbox--margin"
+                    required
+                  />Acepto los términos de uso</label
+                >
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FIN DE MAIN CONTENT -->
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="footer__circle"></div>
+
+      <div class="footer__container">
+        <img
+          class="footer__logo"
+          src="/images/logo_coffeeshop_light.svg"
+          alt="logo"
+        />
+
+        <div class="footer__social">
+          <h3 class="footer__h3">Redes Sociales</h3>
+          <ul class="footer__links">
+            <li class="footer__item">
+              <a href="" class="footer__link"
+                ><img
+                  src="/images/facebook_white.svg"
+                  class="footer__icon"
+                  alt="Icono de facebook"
+                />Facebook</a
+              >
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link"
+                ><img
+                  src="/images/instagram_white.svg"
+                  class="footer__icon"
+                  alt="Icono de instagram"
+                />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copyright">
+        &copy; 2026 Brayan Josue Henriquez Espinoza
+      </p>
+    </footer>
   </body>
 </html>
