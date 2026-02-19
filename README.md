@@ -23,3 +23,8 @@ Personalización de Formularios: Uso de appearance: none para rediseñar casilla
 Transiciones (Transitions): Efectos suaves en los estados hover de botones y enlaces para mejorar la interactividad.
 Fuentes de Google Fonts: Integración de las familias tipográficas Inter y Noto Serif para una jerarquía visual clara.
 Normalización: Uso de normalize.css para asegurar la consistencia del diseño en diferentes navegadores.
+
+
+
+LINK DEL PROYECTO - GITHUB PAGES
+https://hercules830.github.io/web_project_coffeeshop_es/
